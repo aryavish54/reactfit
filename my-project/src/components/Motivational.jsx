@@ -16,7 +16,7 @@ function Motivational() {
   };
 
   return (
-    <section className="bg-blue-900 text-white text-center py-32">
+    <section className="bg-blue-400 text-white text-center py-32">
       <div className="container mx-auto">
         <h2 className="text-4xl font-semibold">Today's Motivation</h2>
         <p className="mt-12 text-2xl">{getDailyMotivation()}</p>

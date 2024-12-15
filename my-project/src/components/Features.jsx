@@ -2,9 +2,9 @@ import React from 'react';
 
 function Features() {
   return (
-    <section className="bg-orange py-32">
+    <section className="bg-orange py-60">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-semibold">App Features</h2>
+        <h2 className="text-6xl font-semibold">App Features</h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-20">
           <div>
             <h3 className="font-semibold text-2xl">Track Your Workouts</h3>

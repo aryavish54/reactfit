@@ -16,10 +16,10 @@ function Motivational() {
   };
 
   return (
-    <section className="bg-blue-400 text-white text-center py-32">
+    <section className="bg-blue-400 text-white text-center py-60">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-semibold">Today's Motivation</h2>
-        <p className="mt-12 text-2xl">{getDailyMotivation()}</p>
+        <h2 className="text-6xl font-semibold">Today's Motivation</h2>
+        <p className="mt-12 text-4xl">{getDailyMotivation()}</p>
       </div>
     </section>
   );
